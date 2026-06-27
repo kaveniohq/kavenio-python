@@ -1,0 +1,10 @@
+generatorName: python
+inputSpec: openapi/openapi.json
+outputDir: generated/python
+packageName: kavenio
+additionalProperties:
+  packageName: kavenio
+  projectName: kavenio
+  packageUrl: https://github.com/kaveniohq/kavenio-python
+  library: asyncio
+  disallowAdditionalPropertiesIfNotPresent: false
